@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config",
+  "name": "@methodexists/eslint-config",
   "description": "MethodExists eslint config, with dependencies",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "bin": {
     "eslint": "bin/lint.js"
