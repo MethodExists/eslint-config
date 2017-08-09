@@ -24,6 +24,17 @@
     "no-cond-assign": [2, "except-parens"],
     "no-console": ["warn", { "allow": ["error", "warn", "info"] }],
     "no-else-return": [0],
+    // disallow un-paren'd mixes of different operators
+    // http://eslint.org/docs/rules/no-mixed-operators
+    'no-mixed-operators': ['error', {
+      groups: [
+        ['%', '**'],
+        ['&', '|', '^', '~', '<<', '>>', '>>>'],
+        ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
+        ['in', 'instanceof']
+      ],
+      allowSamePrecedence: false
+    }],
     "no-nested-ternary": [0],
     "no-restricted-syntax": [0],
     "no-use-before-define": [0],
