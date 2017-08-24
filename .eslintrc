@@ -18,6 +18,7 @@
     "import/no-extraneous-dependencies": [0],
     "import/no-unresolved": [0],
     "import/prefer-default-export": [0],
+    "jsx-a11y/label-has-for": [0],
     "jsx-a11y/no-static-element-interactions": [0],
     "max-len": ["error", 100, 2, { ignoreUrls: true, ignoreComments: true, ignoreRegExpLiterals: true, ignoreStrings: true, ignoreTemplateLiterals: true }],
     "no-bitwise": [0],
