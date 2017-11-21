@@ -23,6 +23,7 @@
     "max-len": ["error", 100, 2, { ignoreUrls: true, ignoreComments: true, ignoreRegExpLiterals: true, ignoreStrings: true, ignoreTemplateLiterals: true }],
     "no-bitwise": [0],
     "no-cond-assign": [2, "except-parens"],
+    "no-confusing-arrow": [0],
     "no-console": ["warn", { "allow": ["error", "warn", "info"] }],
     "no-else-return": [0],
     // disallow un-paren'd mixes of different operators
